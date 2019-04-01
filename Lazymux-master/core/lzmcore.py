@@ -17,6 +17,7 @@ backtomenu_banner = """
   [99] Back to main menu
   [00] Exit the Lazymux
 """
+def nmap ():
 	python = sys.executable
 	os.execl(python, python, * sys.argv)
 	curdir = os.getcwd()
